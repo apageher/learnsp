@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "request-to-graph-and-azure-fx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/requestToGraphAndAzureFx/RequestToGraphAndAzureFxWebPart.js",
+          "manifest": "./src/webparts/requestToGraphAndAzureFx/RequestToGraphAndAzureFxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RequestToGraphAndAzureFxWebPartStrings": "lib/webparts/requestToGraphAndAzureFx/loc/{locale}.js"
+  }
+}
